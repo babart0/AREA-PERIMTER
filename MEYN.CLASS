@@ -1,0 +1,43 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package meyn;
+
+/**
+ *
+ * @author Student
+ */
+public class Meyn {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      
+        
+        square square = new square (6);
+        double area = square.getArea();
+        System.out.println("The area of the squarea is : " + area);
+        double perimeter = square.getPerimeter();
+        System.out.println("The perimeter of the square is: " + perimeter);
+        
+        
+        rectangle rectangle = new rectangle (10, 9);
+        area = rectangle.getArea();
+        System.out.println("The area of the rectangle is : " + area);
+        perimeter = rectangle.getPerimeter();
+        System.out.println("The perimeter of the rectangle is: " + perimeter);
+        
+        Triangle triangle = new Triangle (9, 9, 9);
+        area = triangle.getArea();
+        System.out.println("The area of the the triangle is : " + area);
+        perimeter = triangle.getPerimeter();
+        System.out.println("The perimeter of the triangle is: " + perimeter);
+        
+        
+        
+        
+    }
+    
+}
